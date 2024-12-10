@@ -54,6 +54,6 @@ func init() {
 }
 
 /*
-go run main.go block --ip "10.178.65.35" --port 7021 --sql "select * from test.t1 "       
+go run main.go block --ip "127.0.0.1" --port 4000   --sql "select * from test.t1 "       
 <nil>
 */
