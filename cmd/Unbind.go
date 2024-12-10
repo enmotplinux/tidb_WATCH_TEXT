@@ -52,12 +52,18 @@ func init() {
 /*
 
  解绑：
- go run main.go Unbind --ip "10.178.65.35" --port 7021 --pid 6  id 是查询出来的
+
+ go run main.go Unbind --ip "127.0.0.1" --port 4000 --pid 6  id 是查询出来的
+
 查询：
- go run main.go select --ip "10.178.65.35" --port 7021
+
+ go run main.go select --ip "127.0.0.1" --port 4000 
+
  拉黑：
- go run main.go block --ip "10.178.65.35" --port 7021 --sql "select * from test.t1"   
- go run main.go block --ip "10.178.65.35" --port 7021 --sql "select * from test.t1 limit 1"   
+
+ go run main.go block --ip "127.0.0.1" --port 4000  --sql "select * from test.t1"   
+ 
+ go run main.go block --ip "127.0.0.1" --port 4000  --sql "select * from test.t1 limit 1"   
 
 
 */
